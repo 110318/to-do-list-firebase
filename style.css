@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./fondo.jpg);
+}
+
+h1 {
+    text-align: center;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  button:focus {
+    outline: none;
+  }
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .todo-item {
+    animation: slideIn 0.5s ease both;
+  }
+  
